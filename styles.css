@@ -66,7 +66,7 @@ a {
     border-radius: 8px;
     padding: 10px;
 }
-
+/*When mouse hovers over*/
 a:hover {
     cursor:url('cursors/cursor.cur');
     background: hsl(75, 94%, 57%);
