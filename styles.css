@@ -1,0 +1,76 @@
+/* Import font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 50px;
+}
+
+.avatar {
+    border-radius: 100px;
+    width: 96px;
+    height: 96px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+}
+
+.cardSection-links {
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+a {
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    border: 2px solid #272727;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+a:hover {
+    cursor:url('cursors/cursor.cur');
+    background: hsl(75, 94%, 57%);
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
