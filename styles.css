@@ -21,9 +21,10 @@ body {
 }
 
 .avatar {
-    border-radius: 100px;
+    border-radius: 50%;
     width: 96px;
     height: 96px;
+    object-fit: contain;
 }
 
 h1,
@@ -31,9 +32,12 @@ h2,
 h3 {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-wrap: break-word;
 }
 
 h2 {
+    padding-top: 2px;
     margin-top: 5px;
 }
 
@@ -56,6 +60,8 @@ h2 {
     flex-direction: column;
     gap: 20px;
     padding-top: 25px;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 a {
@@ -66,6 +72,7 @@ a {
     border-radius: 8px;
     padding: 10px;
 }
+
 /*When mouse hovers over*/
 a:hover {
     cursor:url('cursors/cursor.cur');
